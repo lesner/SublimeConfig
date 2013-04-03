@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<!-- "Подсветка" целевого элемента на странице:
+например имеем код: -->
+ ${1}<h3 id="123">текст</h3>
+
+/*при переходе по ссылке site.ru/index.html#123 внешний вид нашего заголовка поменяется.
+На основе этого псевдокласса можно сделать даже галерею: */
+
+ ${1}h3 {
+	font: normal 1.3em/1.8em Arial, Helvetica, sans-serif;
+	color: #ccc;
+}
+
+h3:target {
+	font-size: 1.6em;
+	text-decoration: underline;
+	color: #68c;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_podsvTarget</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

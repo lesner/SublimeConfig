@@ -1,0 +1,24 @@
+{
+	"installed_packages":
+	[
+		"4GL",
+		"AAAPackageDev",
+		"Alignment",
+		"Color Highlighter",
+		"ColorPicker",
+		"DocBlockr",
+		"Emmet",
+		"EncodingHelper",
+		"Git",
+		"Gitignore",
+		"Hayaku - tools for writing CSS faster",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Python Test Runner",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Tag",
+		"Terminal"
+	]
+}

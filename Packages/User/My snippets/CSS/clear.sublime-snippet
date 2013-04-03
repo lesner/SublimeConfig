@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+		/* Предотвращение схлопывания родительского элемента если внутри есть плавающие блоки (clearfix): */
+${1} .clearfix:before, 
+${1} .clearfix:after { content: ""; display: table; } 
+     .clearfix:after { clear: both; } 
+     .clearfix { *zoom: 1; }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_clear</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!--  <scope>*.css</scope> -->
+</snippet>

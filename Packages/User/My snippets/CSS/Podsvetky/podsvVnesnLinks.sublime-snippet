@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+		<!-- "Подсветка внешних ссылок" -->
+
+${1}a {
+	color: #c06;
+	}
+${1}	a[target*="blank"] {
+		color: #f50;
+		}
+${1}	a[target*="blank"]:after {
+		content: url(icon.png); /*маленькая иконка для большей наглядности*/
+		}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_podsvVnesnLinks</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

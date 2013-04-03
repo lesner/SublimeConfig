@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+		<!-- Вертикальное выравнивание картинки в блоке (полезно когда картинки разного размера): -->
+ div ${1}{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	overflow: hidden;
+	}
+	div ${1}img {
+		max-width: 100px;
+		vertical-align: middle;
+		display: block;
+		}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>_vvi</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

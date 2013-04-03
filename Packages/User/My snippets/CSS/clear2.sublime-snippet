@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.clr {clear: both; height: 0; overflow: hidden;}  
+<!-- а перед закрывающим тегом родительского блока вставить:  -->
+<div class="clr"></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>_clear2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
